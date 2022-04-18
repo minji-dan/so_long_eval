@@ -6,7 +6,7 @@
 /*   By: mkim2 <mkim2@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/16 19:21:45 by mkim2             #+#    #+#             */
-/*   Updated: 2022/04/16 19:22:19 by mkim2            ###   ########.fr       */
+/*   Updated: 2022/04/18 13:15:38 by mkim2            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	main(int argc, char **argv)
 {
 	t_info	info;
 
-	if (1 < argc)
+	if (argc == 2)
 	{
 		init_info(&info, argv[1]);
 		check_extension(&info);
