@@ -1,4 +1,4 @@
-# so_long_eval
+# so_long
 
 ## Install
 ```
